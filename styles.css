@@ -155,6 +155,7 @@ h2 {
   }
 }
 .box-container {
+  display: block;
   margin-top: 8px;
   border-radius: 5px;
   position: relative;
@@ -162,13 +163,23 @@ h2 {
   width: 100vw;
   height: 50vh;
 }
+.box-container1 {
+  display: block;
+  margin-top: 8px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #adcbe3;
+  width: 100vw;
+  height: 80vh;
+}
 .you {
   font-size: 30px;
   font-weight: bold;
 }
 .box {
-  font-family: "Architects Daughter", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  direction: rtl;
+  font-family: "Harmattan", Arial, Helvetica, sans-serif;
+  font-size: 18px;
   border-radius: 5px;
   width: 180px;
   height: 100px;
@@ -176,8 +187,23 @@ h2 {
   position: absolute;
   top: 40%;
   left: 28%;
-
+  padding-right: 5px;
   padding-left: 5px;
   background-color: #f4b6c2;
   animation: boxani 3s infinite;
+}
+.box1 {
+  direction: rtl;
+  font-family: "Harmattan", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border-radius: 5px;
+  width: 330px;
+  height: 370px;
+  margin: 0;
+  position: absolute;
+  top: 8%;
+  left: 9%;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #f4b6c2;
 }
